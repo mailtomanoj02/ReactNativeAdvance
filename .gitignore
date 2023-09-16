@@ -1,0 +1,4 @@
+/node_modules/
+/ios/Podfile.lock/
+/ios/Pods
+/package-lock.json
