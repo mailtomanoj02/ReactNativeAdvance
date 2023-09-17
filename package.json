@@ -12,6 +12,7 @@
   "dependencies": {
     "@rneui/base": "^0.0.0-edge.2",
     "@rneui/themed": "^0.0.0-edge.2",
+    "axios": "^1.5.0",
     "react": "18.2.0",
     "react-native": "0.72.4",
     "react-native-elements": "^3.4.3"

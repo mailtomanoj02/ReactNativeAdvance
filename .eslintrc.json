@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": "airbnb",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "react/jsx-filename-extension": "off",
+        "no-whitespace-before-property": "off",
+        "import/no-unresolved": "off",
+        "import/newline-after-import": "off",
+        "consistent-return": "off",
+        "arrow-parens": "off",
+        "radix": "off",
+        "func-names": "off",
+        "object-curly-spacing": "off",
+        "quotes": "off",
+        "import/no-extraneous-dependencies": "off"
+    }
+}

@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65b5f08f-8d20-43ab-97f6-0114536e4be9" name="Changes" comment="Deleted">
+      <change afterPath="$PROJECT_DIR$/src/SignUpForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-time-password/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-time-password/functions/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/one-time-password/functions/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-time-password/functions/serviceAccount.json" beforeDir="false" afterPath="$PROJECT_DIR$/one-time-password/functions/serviceAccount.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-time-password/functions/twilio.js" beforeDir="false" afterPath="$PROJECT_DIR$/one-time-password/functions/twilio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one-time-password/functions/verifyOtp.js" beforeDir="false" afterPath="$PROJECT_DIR$/one-time-password/functions/verifyOtp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animation/Ball.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animation/Deck.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/card1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/card2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/card3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/card4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/card5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/card6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Images/card7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +44,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -41,6 +62,9 @@
       <workItem from="1694851907864" duration="940000" />
       <workItem from="1694853356319" duration="295000" />
       <workItem from="1694853788066" duration="95000" />
+      <workItem from="1694853891985" duration="1777000" />
+      <workItem from="1694856370403" duration="115000" />
+      <workItem from="1694858886118" duration="62000" />
     </task>
     <task id="LOCAL-00001" summary="Deleted">
       <created>1694853391333</created>
