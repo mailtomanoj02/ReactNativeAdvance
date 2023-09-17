@@ -8,6 +8,7 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
 import SignUpForm from "./src/SignUpForm";
+import SignInForm from "./src/SIgnInForm";
 const App = () => {
   return (
     <View
@@ -17,6 +18,7 @@ const App = () => {
       }}
     >
       <SignUpForm />
+      <SignInForm/>
     </View>
   );
 };

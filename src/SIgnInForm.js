@@ -3,20 +3,26 @@ import {
   TextInput, TouchableOpacity, View, Text, StyleSheet,
 } from 'react-native';
 import axios from 'axios';
-
-function SignUpForm() {
+import {auth} from 'firebase/app'
+function SignInForm() {
   const [phone, setPhone] = useState('');
+  const [code, setCode] = useState('');
   const handleSubmit = async () => {
     try {
-      await axios.post('https://createuser-be7txxgqsq-uc.a.run.app', {
+    let response = await axios.post('https://verifyotp-be7txxgqsq-uc.a.run.app',{
         phone,
+        code
+    })
+    let token = response?.data?.token
+    auth().signInWithCustomToken(token).then((userCredential) => {
+        const user = userCredential.user;
+        console.log('User signed in:', user);
+      })
+      .catch((error) => {
+        console.error('Custom token sign-in error:', error);
       });
-
-      await axios.post('https://requestotp-be7txxgqsq-uc.a.run.app', {
-        phone,
-      });
-
-      console.log("Test");
+      
+    console.log(data?.token)
     } catch (error) {
       console.error("An error occurred:", error);
     }
@@ -32,11 +38,20 @@ function SignUpForm() {
         }}
         style={styles.signUpInputStyle}
       />
+      <TextInput
+        value={code}
+        placeholder="Please Enter Otp"
+        onChangeText={(number) => {
+          const formattedPhone = number.replace(/[^0-9]/g, '').substring(0,4);
+          setCode(formattedPhone);
+        }}
+        style={styles.signUpInputStyle}
+      />
       <TouchableOpacity
         style={styles.signUpButtonStyle}
         onPress={handleSubmit}
       >
-        <Text style={{ textAlign: 'center', color: 'white' }}>Sign Up</Text>
+        <Text style={{ textAlign: 'center', color: 'white' }}>Sign In</Text>
       </TouchableOpacity>
       <View style={styles.dividerStyle}
       />
@@ -51,6 +66,7 @@ const styles = StyleSheet.create({
     width: '90%',
     borderWidth: 1,
     borderColor: 'black',
+    marginTop:10
   },
   signUpButtonStyle: {
     height: 25,
@@ -63,4 +79,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default SignUpForm;
+export default SignInForm;
